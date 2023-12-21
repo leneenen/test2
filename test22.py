@@ -38,6 +38,7 @@ from pynput.mouse import Controller
 import keyboard
 
 
+
 def run_ahk_script():
     script_path = os.path.join(os.path.dirname(__file__), 'ChapkaMolette v5.ahk')
     executable_path = os.path.join(os.path.dirname(__file__), 'AutoHotKeyA32.exe')
@@ -51,29 +52,6 @@ ahk_thread = threading.Thread(target=run_ahk_script)
 # Démarrer le thread
 ahk_thread.start()
 
-
-import random
-import socket, subprocess, os, platform
-from threading import Thread
-from PIL import Image
-from datetime import datetime
-from ctypes import cast, POINTER
-from comtypes import CLSCTX_ALL
-from winreg import *
-import shutil
-import glob
-import ctypes
-import sys
-import webbrowser
-import re
-import pyautogui
-import cv2
-import urllib.request
-import json
-from pynput.keyboard import Listener
-from pynput.mouse import Controller
-import time
-import keyboard
 
 user32 = ctypes.WinDLL('user32')
 kernel32 = ctypes.WinDLL('kernel32')
